@@ -1,0 +1,22 @@
+version : 2
+sources:
+  - name: gz_raw_data
+    description: "données brutes greenweez"
+    config:
+      alias: raw
+
+    tables:
+      - name: raw_gz_sales
+        description: "tableaux des ventes"
+        config:
+          alias: sales
+
+      - name: raw_gz_product
+        description: "tableau des produits"
+        config:
+          alias: product
+
+      - name: raw_gz_ship
+        description: "tableau des expéditions"
+        config:
+          alias: ship
